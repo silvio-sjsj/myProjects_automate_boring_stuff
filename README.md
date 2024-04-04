@@ -1,17 +1,13 @@
 ### This is my repository for exercises and projects from the book [Automate the boring stuff with python](https://automatetheboringstuff.com/)
 
-This repository contain my attempts on solving exercises and practice projects from the aforementioned book.
+This repository contains my attempts at solving exercises and practice projects from the aforementioned book.
 
-## Projects from chapter 7:
+## Projects from chapter 7: Pattern matching with regular expressions
 
 **What you'll find in the files:**
- * functions.py: functions for downloading the data from the internet, saving figures locally, Cramer's V correlation and other functions used in the project.
- * titanic_exploring_data.py: the data exploration code with graphs, correlations and other exploratory stuff.
- * titanic_model.py: the code to fit the model
- * preprocessing.py: the complete preprocessing pipeline used in the project for transforming and preparing the data.
- * titanic.tgz: .tgz files containing the test and train data as provided by Kaggle.
- * predicted_results.csv: the predicted results submitted to Kaggle.
- * the `images` folder contain all the images generated in the above codes
- * the `titanic` folder contains the test.csv and train.csv data provided by Kaggle.
-
+ * `regex_date_detection_test.py`: A simple test to match dates in the format DD/MM/YYYY. The code simply takes 8 predefined dates and tests if they are valid.
+ * `regex_date_detection.py`: A more complete solution that takes as input everything from an internet page from the clipboard and searches for dates that match the pattern.
+ * `regex_strip.py`: An exercise using regex to build a function that performs the same task as the `strip()` string method.
+ * `regex_strong_password.py`: A function using regex to ensure that a password is strong, meaning it meets specific criteria (8 characters long, at least one uppercase letter, one lowercase letter, one special character, and one digit).
+   
 ## Projects from chapter 8:
