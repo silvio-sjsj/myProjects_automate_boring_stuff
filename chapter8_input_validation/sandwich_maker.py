@@ -58,9 +58,12 @@ def main():
         num_sandwiches += 1
         bread, protein, cheese, extras = get_sandwich_preferences(num_sandwiches)
         total_cost = calculate_total_cost(bread, protein, cheese, extras)
+        num_copies = pyip.inputInt(prompt="How many copies of the sandwich would you like? ",
+                                   min=1)
+        total_cost *= num_copies
         print(f"\nTotal cost for Sandwich {num_sandwiches}: ${total_cost:.2f}")
         total_cost_all += total_cost
-        another_sandwiche = pyip.inputYesNo("Do you want another sandwich? \n", allowRegexes=[r'yes', r'no'])
+        another_sandwiche = pyip.inputYesNo("Do you want a different sandwich? \n", allowRegexes=[r'yes', r'no'])
         if another_sandwiche == 'no':
             break
     print(f"\nTotal cost for {num_sandwiches} sandwich(es) is: ${total_cost_all:.2f}")
