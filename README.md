@@ -14,3 +14,10 @@ This repository contains my attempts at solving exercises and practice projects 
 
 **What you'll find in the files:**
  * `sandwich_maker.py`: a program that asks the user for their sandwich preferences. This program stores the user's choices, validating them using PyInputPlus. In the file, you'll find a more sophisticated program than the one proposed in the book: instead of asking how many sandwiches the user wants and copying them, this program iterates over the menu, building one different sandwich at a time, and computes the total cost in the end for the n different sandwiches the user asked for. The program can also output how many copies of a particular sandwich the user wants.
+
+## Projects from chapter 9:
+
+**What you'll find in the files:**
+ * `extended_mclip.pyw`: an extension of the `mclip` project given in the book with the addition of a `del` line command that deletes a given keyword from the shelf. Usage examples are given within the `.pyw` file.
+ * `mad_libs.py`: a program that reads text files and lets the user add their own text where some pre defined words appears.
+ * `regex_search.py`: a program that opens all .txt files in a folder and searches for any line that matches a user-supplied regular expression.
