@@ -21,3 +21,10 @@ This repository contains my attempts at solving exercises and practice projects 
  * `extended_mclip.pyw`: an extension of the `mclip` project given in the book with the addition of a `del` line command that deletes a given keyword from the shelf. Usage examples are given within the `.pyw` file.
  * `mad_libs.py`: a program that reads text files and lets the user add their own text where some pre defined words appears.
  * `regex_search.py`: a program that opens all .txt files in a folder and searches for any line that matches a user-supplied regular expression.
+
+## Projects from chapter 10:
+
+**What you'll find in the files:**
+ * `backup_to_zip_argv.py`: the `backupToZip.py` program given in the book with some adjustments to make it better and more versatile: the folder to be backuped and the folder where the backup will be stored are inputs given as arguments by the user while calling the program from the terminal; in this way the program can backup any folder and store this backup where the user wants.
+ * `backup_to_zip.py`: the program given in the book with some minor changes like, for example, the folder to be backuped is given by the user as input to the program.
+ * `rename_dates.py`: the code given in the book with some minor changes like, for example, the folders of american dates and european dates are not the same and are given to the program with their corresponding paths.
