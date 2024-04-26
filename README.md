@@ -25,6 +25,13 @@ This repository contains my attempts at solving exercises and practice projects 
 ## Projects from chapter 10:
 
 **What you'll find in the files:**
+ * `add_pref_or_sufix.py`: adds a prefix or a sufix, as given by the user, to all files in a given folder that matches some pattern name given by the user. This is a program to be called from the terminal with 4 arguments: the program itself, the source folder, the pattern to match and a choice (prefix or sufix).
+ * `add_prefix.py`: This program is to rename some number of files in a given folder. It is part of the "ideas for similar programs" given in the book. IT adds a given prefix to the start of a filename if it contains a given pattern.
+ * `add_prefix2.py`: Similar to the program above but this one adds a prefix to all files in a given folder and all its subfolders.
+ * `backup_to_zip.py`: this is the program given in the book with some minor changes like, for example, the folder to be backuped is given by the user as input to the program.
  * `backup_to_zip_argv.py`: the `backupToZip.py` program given in the book with some adjustments to make it better and more versatile: the folder to be backuped and the folder where the backup will be stored are inputs given as arguments by the user while calling the program from the terminal; in this way the program can backup any folder and store this backup where the user wants.
- * `backup_to_zip.py`: the program given in the book with some minor changes like, for example, the folder to be backuped is given by the user as input to the program.
- * `rename_dates.py`: the code given in the book with some minor changes like, for example, the folders of american dates and european dates are not the same and are given to the program with their corresponding paths.
+ * `filling_gaps.py`: this is the "Filling in the gaps" practice project proposed. This program receives as argument a source folder path given by the user and it renames every file in that folder for every extension it finds in there filling numbered gaps like, for example, if there are x_001, x_04, x_00099 etc to x_1, x_2, x_3 etc. It has some minor flaws like, for example, assuming that all the files to be renamed has some prefix before the numbers, like for example aa_0001, aa_009 and b_02, b_000082 and so on.
+ * `rename_dates.py`: this is the code given in the book with some minor changes like, for example, the folders of american dates and european dates are not the same and are given to the program with their corresponding paths.
+ * `selective_backup.py`: a program to backup only files in a given folder and its subfolders with a given extension provided by the user (any number of extensios are possible).
+ * `selective_backup2.py`: a program to backup only files in a given folder and its subfolders that does NOT have the extensio(s) provided by the user.
+ * `selective_copy.py`: copy all files in a folder and its subfolders to another folder that matches a given extension. The source folder, the target folder and the extension(s) are all provided by the user.
