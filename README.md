@@ -35,3 +35,8 @@ This repository contains my attempts at solving exercises and practice projects 
  * `selective_backup.py`: a program to backup only files in a given folder and its subfolders with a given extension provided by the user (any number of extensios are possible).
  * `selective_backup2.py`: a program to backup only files in a given folder and its subfolders that does NOT have the extensio(s) provided by the user.
  * `selective_copy.py`: copy all files in a folder and its subfolders to another folder that matches a given extension. The source folder, the target folder and the extension(s) are all provided by the user.
+ 
+ ## Projects from chapter 11:
+
+**What you'll find in the files:**
+ * `debugging_coin_toss.py`: a simple guess game with two guesses between two options (really easy game to win). The original code had some bugs and here we try to find them and correct them.
