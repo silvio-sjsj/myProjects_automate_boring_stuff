@@ -9,7 +9,7 @@ import shelve
 import pyperclip
 import sys
 
-shelf_path = "/home/silviojr/mcb"
+shelf_path = "/home/.../mcb"
 
 mcbShelf = shelve.open(shelf_path)
 
