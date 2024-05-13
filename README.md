@@ -2,6 +2,9 @@
 
 This repository contains my attempts at solving exercises and practice projects from the aforementioned book.
 
+**What you'll find in the files:**
+ * `map_it.py`: it gets an adress from command line and opens its map from google maps.
+
 ## Projects from chapter 7: Pattern matching with regular expressions
 
 **What you'll find in the files:**
@@ -36,7 +39,13 @@ This repository contains my attempts at solving exercises and practice projects 
  * `selective_backup2.py`: a program to backup only files in a given folder and its subfolders that does NOT have the extensio(s) provided by the user.
  * `selective_copy.py`: copy all files in a folder and its subfolders to another folder that matches a given extension. The source folder, the target folder and the extension(s) are all provided by the user.
  
- ## Projects from chapter 11:
+## Projects from chapter 11:
 
 **What you'll find in the files:**
  * `debugging_coin_toss.py`: a simple guess game with two guesses between two options (really easy game to win). The original code had some bugs and here we try to find them and correct them.
+ 
+## Projects from chapter 12:
+
+**What you'll find in the files:**
+ * `open_pages.py`: open a list of web pages from command line arguments. It doesn't need full page name but only what's between https://wwww. and .com. Example: gmail, youtube, github etc.
+ * `weather.py`: The program opens up the openwather page for the city chosen and also prints some information on the screen. 
