@@ -14,7 +14,7 @@ import urllib.parse
 import requests
 
 def search_city_url(city, country_code, state_code):
-    api_key = 'a59ef00805e9c5a293dbd4127301960d'
+    api_key = ''
     city_name = urllib.parse.quote(city)
     state_code = urllib.parse.quote(state_code)
     country_code = urllib.parse.quote(country_code)
