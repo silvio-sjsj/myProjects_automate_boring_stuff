@@ -1,4 +1,4 @@
-#! /home/silviojr/.virtualenvs/boring/bin/python3
+#! /home/.../.virtualenvs/boring/bin/python3
 # extended_mclip.pyw - An extension of the multi-clipboard program.
 # Usage: py.exe multi-clipboard.pyw save <keyword> - Saves clipboard to keyword.
 #        py.exe multi-clipboard.pyw <keyword> - Loads keyword to clipboard.
