@@ -48,4 +48,4 @@ This repository contains my attempts at solving exercises and practice projects 
 
 **What you'll find in the files:**
  * `open_pages.py`: open a list of web pages from command line arguments. It doesn't need full page name but only what's between https://wwww. and .com. Example: gmail, youtube, github etc.
- * `weather.py`: The program opens up the openwather page for the city chosen and also prints some information on the screen. 
+ * `weather.py`: The program opens up the openwather page for the city chosen and also prints some information on the screen.

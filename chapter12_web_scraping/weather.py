@@ -12,9 +12,16 @@ import sys
 import webbrowser
 import urllib.parse
 import requests
+import json
+from pathlib import Path
+
+path_to_secrets = Path('/home/silviojr/Documents')
+
+with open(path_to_secrets / "secrets.txt", 'r') as file:
+    secrets = json.load(file)
 
 def search_city_url(city, country_code, state_code):
-    api_key = ''
+    api_key = secrets.get('open-weather')
     city_name = urllib.parse.quote(city)
     state_code = urllib.parse.quote(state_code)
     country_code = urllib.parse.quote(country_code)
